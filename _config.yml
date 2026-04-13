@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Jonathan Williams"
 title_separator          : "-"
-name                     : "Jonathan Williams"
-description              : "Jonathan Williams's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Jonathan Williams"
+description              : &description "Jonathan Williams's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://j-swilliams.github.ioo" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -138,7 +138,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : jonsolowill
+  username               : &twitter jonsolowill
 facebook:
   username               :
   app_id                 :
